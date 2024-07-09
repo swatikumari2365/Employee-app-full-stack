@@ -30,9 +30,15 @@ An Employee Management Application built with Angular for the frontend and Sprin
 
 ### Frontend Setup
 ```bash
-- cd employee-management-backend
-- npm install
-- ng serve
+# Navigate to the frontend directory
+cd employee-management-frontend
+
+# Install dependencies
+npm install
+
+# Start the Angular development server
+ng serve
+exit
 
 ### Backend Setup
 
@@ -40,6 +46,7 @@ cd employee-management-backend
 mvn clean install
 Configure your database settings in src/main/resources/application.properties
 mvn spring-boot:run
+exit 
 
 ### Running the Application
 
