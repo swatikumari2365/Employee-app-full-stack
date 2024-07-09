@@ -29,7 +29,7 @@ An Employee Management Application built with Angular for the frontend and Sprin
 - MySQL (or another database)
 
 ### Frontend Setup
-
+```bash
 - cd employee-management-backend
 - npm install
 - ng serve
