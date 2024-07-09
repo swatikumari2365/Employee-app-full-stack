@@ -30,9 +30,9 @@ An Employee Management Application built with Angular for the frontend and Sprin
 
 ### Frontend Setup
 
-   cd employee-management-frontend
-   npm install
-   ng serve
+- cd employee-management-backend
+- npm install
+- ng serve
 
 ### Backend Setup
 
