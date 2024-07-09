@@ -38,18 +38,23 @@ npm install
 
 # Start the Angular development server
 ng serve
-exit
+```
 
 ### Backend Setup
-
+```bash
+# Navigate to the backend directory:
 cd employee-management-backend
+
+# Install dependencies and build the project:
 mvn clean install
-Configure your database settings in src/main/resources/application.properties
+
+# Configure your database settings in src/main/resources/application.properties
+
+# Run the Spring Boot application:
 mvn spring-boot:run
-exit 
+```
 
 ### Running the Application
-
 Frontend: http://localhost:4200
 Backend: http://localhost:8080
 
